@@ -1,0 +1,52 @@
+<html>
+<head>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 2px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+    
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Lp.</th>
+                <th>Imię</th>
+                <th>Nazwisko</th>
+                <th>Wiek</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">1</td>
+                <td>Jan</td>
+                <td>Kowalski</td>
+                <td>50</td>
+            </tr>
+            <tr>
+                <td>Jan</td>
+                <td>Nowak</td>
+                <td>50</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td colspan="2"><span>Alina Krótki</span></td>
+                <td>45</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Roman</td>
+                <td>Talarski</td>
+                <td>47</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
