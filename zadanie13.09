@@ -1,0 +1,66 @@
+<html>
+<head>
+    <style>
+  
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 2px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+        .green-cell {
+            background-color: #00ff00;
+        }
+        .dashed-border {
+            border: 3px dashed red;
+        }
+        .purple-border {
+            border: 4px solid rgb(42, 42, 139); 
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th class="purple-border" style="background-color: black;"></th>
+            <th class="purple-border">Kolumna 1</th>
+            <th class="purple-border">Kolumna 2</th>
+            <th class="purple-border">Kolumna 3</th>
+            <th class="purple-border">Kolumna 4</th>
+            <th class="purple-border">Kolumna 5</th>
+        </tr>
+        <tr>
+            <td class="purple-border">Wiersz 1</td>
+            <td class="dashed-border" colspan="5">Inwestor</td>
+        </tr>
+        <tr>
+            <td class="purple-border">Wiersz 2</td>
+            <td class="dashed-border" colspan="4">Obiekt</td>
+            <td>stadium</td>
+        </tr>
+        <tr>
+            <td class="purple-border">Wiersz 3</td>
+            <td>Tytul</td>
+            <td class="dashed-border" colspan="3">Podtytul</td>
+            <td>skala</td>
+        </tr>
+        <tr>
+            <td class="purple-border">Wiersz 4</td>
+            <td class="green-cell" rowspan="2">Projektant</td>
+            <td class="green-cell" rowspan="2">Numer Uprawnień budowlanych</td>
+            <td>Data</td>
+            <td>Podpis</td>
+            <td>numer rysunku</td>
+        </tr>
+        <tr>
+            <td class="purple-border">Wiersz 5</td>
+            <td>Data</td>
+            <td>Podpis</td>
+            <td>numer dokumentu</td>
+        </tr>
+    </table>
+</body>
+</html>
